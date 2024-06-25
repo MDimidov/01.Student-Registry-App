@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     steps:
     - name: Checkout of the repo
@@ -20,5 +19,5 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm install
-    - name: Run Tntegration Tests
+    - name: Run Integration Tests
       run: npm test
